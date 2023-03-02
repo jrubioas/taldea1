@@ -1,2 +1,0 @@
-Ioritz
-Manex
