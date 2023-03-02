@@ -45,8 +45,14 @@ p {
 h1, h2{
   margin-left: 5%;
   margin-right: 5%;
-  text-align: justify;
+  text-align: center;
+  
 }
+table{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 
 .letra{
   font-size: 28px;
