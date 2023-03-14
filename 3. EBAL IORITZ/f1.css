@@ -17,12 +17,6 @@ ul {
   top: 0;
 }
 
-#top_menu {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
 li {
   float: left;
 }
