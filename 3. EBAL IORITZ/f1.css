@@ -11,6 +11,12 @@ ul {
   background-color: #333;
 }
 
+#top_menu {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 li {
   float: left;
 }
@@ -39,30 +45,10 @@ p {
 h1, h2{
   margin-left: 5%;
   margin-right: 5%;
-  text-align: center;
-  
-}
-table{
-  margin-left: 2%;
-  margin-right: 2%;
-}
-h3{
-  margin-left: 5%;
-}
-#argazkia2{
-  height:350px ;
-  width: 700px;
-
-}
-#argazkia3{
-  height:350px ;
-  width: 700px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  text-align: justify;
 }
 
 .letra{
   font-size: 28px;
 }
+
