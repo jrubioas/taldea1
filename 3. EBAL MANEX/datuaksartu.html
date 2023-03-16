@@ -42,14 +42,45 @@
 
   <h1>FORMULARIOAK</h1>
 
-  <h2>Datuak sartzeko formularioa:</h2>
+  <h3>Urteak sartzeko formularioa:</h3>
 
   <form>
-    <label for="Urtea">Urtea:</label><br>
+    <label for="urtea">Urtea:</label><br>
     <input type="text" id="urtea" name="urtea"><br>
-    <label for="lname">id_urtea:</label><br>
+    <label for="id_urtea">id_urtea:</label><br>
     <input type="integer" id="id_urtea" name="id_urtea"><br><br>
-    <input type="submit" value="Bidali">
+    <button onclick="sartuUrteak()">Klik egin hemen datuak taulan sartzeko.</button>
+    <p id="urteaksartuta"></p>
+  </form> 
+
+  <h3>Zirkuitoak sartzeko formularioa:</h3>
+
+  <form>
+    <label for="id_urtea">id_urtea:</label><br>
+    <input type="integer" id="id_urtea2" name="id_urtea2"><br>
+    <label for="gp">gp:</label><br>
+    <input type="text" id="gp" name="gp"><br>
+    <label for="zirkuitoa">zirkuitoa:</label><br>
+    <input type="text" id="zirkuitoa" name="zirkuitoa"><br>
+    <label for="id_zirkuitoa">id_zirkuitoa:</label><br>
+    <input type="integer" id="id_zirkuitoa" name="id_zirkuitoa"><br><br>
+    <button onclick="sartuZirkuitoak()">Klik egin hemen datuak taulan sartzeko.</button>
+    <p id="zirkuitoasartuta"></p>
+  </form> 
+
+  <h3>Sailkapenak sartzeko formularioa:</h3>
+
+  <form>
+    <label for="id_zirkuitoa">id_zirkuitoa:</label><br>
+    <input type="integer" id="id_zirkuitoa2" name="id_zirkuitoa2"><br>
+    <label for="posizioa">posizioa:</label><br>
+    <input type="integer" id="posizioa" name="posizioa"><br>
+    <label for="gidaria">gidaria:</label><br>
+    <input type="text" id="gidaria" name="gidaria"><br>
+    <label for="denbora">denbora:</label><br>
+    <input type="text" id="denbora" name="denbora"><br><br>
+    <button onclick="sartuSailkapenak()">Klik egin hemen datuak taulan sartzeko.</button>
+    <p id="sailkapenasartuta"></p>
   </form> 
 
 
