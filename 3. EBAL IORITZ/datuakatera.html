@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"  />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="f1.css">
+<script src="datuakatera.js"></script>
+
+
+<div id="top_menu">
+  <div class="navbar">
+    <a class="active" href="sarrera.html">Sarrera</a>
+    <div class="dropdown">
+      <button class="dropbtn">2023
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="taldeak.html">Taldeak</a>
+        <a href="egutegia.html">Egutegia</a>
+        <a href="sailkapena.html">Sailkapena</a>
+      </div>
+    </div>
+    <a href="historia.html">Historia</a>
+    <div class="dropdown">
+      <button class="dropbtn">Artxiboa
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="datuaksartu.html">Datuak sartu</a>
+        <a href="datuakatera.html">Datuak atera</a>
+      </div>
+    </div>
+  
+    </div>
+  </div>
+</div>
+<br><br>
+</head>
+<body>
+<table id="table">
+    <thead>
+        <tr><td colspan="2"><b>Urteen taula</b></td></tr>
+        <tr>
+            <th>Urtea </th>
+            <th>id_urtea</th>
+        </tr>
+    </thead>
+</table>
+<br>
+<button onclick="lortuDatuak('taldea1',selektaEraiki())">Taula marraztu</button>
+<br><br>
+<table id="table2">
+  <thead>
+      <tr><td colspan="4"><b>Zirkuitoen taula</b></td></tr>
+      <tr>
+          <th>id_urtea </th>
+          <th>Zirkuitoa </th>
+          <th>GP-a</th>
+          <th>id_gp</th>
+      </tr>
+  </thead>
+</table>
+<br>
+<button onclick="lortuDatuak2('taldea1',selektaEraiki2())">Taula marraztu</button>
+<br><br>
+<table id="table3">
+  <thead>
+      <tr><td colspan="4"><b>Sailkapenen taula</b></td></tr>
+      <tr>
+          <th>id_gp </th>
+          <th>posizioa </th>
+          <th>gidaria</th>
+          <th>denbora</th>
+      </tr>
+  </thead>
+</table>
+<br>
+<button onclick="lortuDatuak3('taldea1',selektaEraiki3())">Taula marraztu</button>
+
+
+</body>
+</html>
