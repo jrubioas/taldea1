@@ -1,0 +1,83 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="f1.css">
+  <script src="datuaksartu.js"></script>
+
+</head>
+
+<body>
+  <div id="top_menu">
+    <div class="navbar">
+      <a class="active" href="sarrera.html">Sarrera</a>
+      <div class="dropdown">
+        <button class="dropbtn">2023
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="taldeak.html">Taldeak</a>
+          <a href="egutegia.html">Egutegia</a>
+          <a href="sailkapena.html">Sailkapena</a>
+        </div>
+      </div>
+      <a href="historia.html">Historia</a>
+      <div class="dropdown">
+        <button class="dropbtn">Artxiboa
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="datuaksartu.html">Datuak sartu</a>
+          <a href="datuakatera.html">Datuak atera</a>
+        </div>
+      </div>
+    
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br>
+
+  <h1>FORMULARIOAK</h1>
+
+  <h3>Urteak sartzeko formularioa:</h3>
+
+
+    <label for="Urtea">Urtea:</label><br>
+    <input type="text" id="urtea" name="urtea"><br>
+    <label for="lname">id_urtea:</label><br>
+    <input type="integer" id="id_urtea" name="id_urtea"><br><br>
+    <button onclick="urteaksartu('taldea1')">Klik egin hemen datuak taulan sartzeko.</button>
+    <p id="urteaksartuta"></p>
+
+
+  <h3>Zirkuitoak sartzeko formularioa:</h3>
+
+
+    <label for="Urtea">id_urtea:</label><br>
+    <input type="text" id="id_urtea2" name="id_urtea2"><br>
+    <label for="lname">gp:</label><br>
+    <input type="integer" id="gp" name="gp"><br>
+    <label for="Urtea">zirkuitoa:</label><br>
+    <input type="text" id="zirkuitoa" name="zirkuitoa"><br>
+    <label for="lname">id_zirkuitoa:</label><br>
+    <input type="integer" id="id_zirkuitoa" name="id_zirkuitoa"><br><br>
+    <button onclick="zirkuitoaksartu()">Klik egin hemen datuak taulan sartzeko.</button>
+
+
+  <h3>Sailkapenak sartzeko formularioa:</h3>
+
+
+    <label for="Urtea">id_zirkuitoa:</label><br>
+    <input type="text" id="id_zirkuitoa2" name="id_zirkuitoa2"><br>
+    <label for="lname">posizioa:</label><br>
+    <input type="integer" id="posizioa" name="posizioa"><br>
+    <label for="Urtea">gidaria:</label><br>
+    <input type="text" id="gidaria" name="gidaria"><br>
+    <label for="lname">denbora:</label><br>
+    <input type="integer" id="denbora" name="denbora"><br><br>
+    <button onclick="sailkapenasartu()">Klik egin hemen datuak taulan sartzeko.</button>
+ 
+
+</html>
