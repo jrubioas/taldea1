@@ -1,0 +1,24 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.beltza{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+
+}
+.argazki1{
+    height: 100px;
+    width: 170px;
+}
+.bekoa {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
