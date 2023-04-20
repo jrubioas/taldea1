@@ -10,13 +10,13 @@ async function zirkuitoaksartu(taldea) {
     var a = document.getElementById("id_urtea2").value;
     var b = document.getElementById("gp").value;
     var c = document.getElementById("zirkuitoa").value;
-    var d = document.getElementById("id_zirkuitoa").value;
+    var d = document.getElementById("id_gp").value;
     await fetch('http://'+zerbitzariaAPI+"/insert/insert into zirkuitoak values ('" + a + "', '" + b + "', '" + c + "', '" + d + "')/"+taldea).json()
 }
 
 var zerbitzariaAPI ="zubiriapi.duckdns.org:8000";
 async function sailkapenasartu(taldea) {
-    var a = document.getElementById("id_zirkuitoa2").value;
+    var a = document.getElementById("id_gp2").value;
     var b = document.getElementById("posizioa").value;
     var c = document.getElementById("gidaria").value;
     var d = document.getElementById("denbora").value;
