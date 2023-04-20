@@ -1,4 +1,4 @@
-table,th,td{
+table{
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -21,4 +21,10 @@ table,th,td{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
+}
+
+#taulainvisbletopedeguay{
+    border: 2px solid white;
+    border-collapse: collapse;
+    
 }
