@@ -10,7 +10,7 @@ table{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-
+    width: "50%";
 }
 .argazki1{
     height: 100px;
@@ -21,6 +21,7 @@ table{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
+    width: "100%";
 }
 
 #taulainvisbletopedeguay{
@@ -35,5 +36,5 @@ table{
     margin-right: auto;
 }
 td{
-    width: 33%;
+    width: "33%";
 }
