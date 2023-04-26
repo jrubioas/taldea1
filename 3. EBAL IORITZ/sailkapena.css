@@ -1,0 +1,24 @@
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+#irabazlea{
+    background-color: rgb(235, 235, 12);
+}
+#bigarrena{
+    background-color: rgb(173, 173, 173);
+}
+#hirugarrena{
+    background-color: rgb(184, 0, 0);
+}
+#DNF{
+    background-color: rgb(255, 91, 91);
+}
+#id2{
+    background-color: rgb(255, 228, 233);
+}
+#izenburua{
+    font-weight: bold;
+}

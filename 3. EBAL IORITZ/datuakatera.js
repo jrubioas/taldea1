@@ -18,7 +18,7 @@ function marraztuTaula (datuak) {
         { data: 'urtea' },
         { data: 'id_urtea' }
     ],
-    "pageLength": 5
+    "pageLength": 3
    });
 }
 function marraztuTaula2 (datuak) {
@@ -30,7 +30,7 @@ function marraztuTaula2 (datuak) {
         { data: 'zirkuitoa' },
         { data: 'id_gp' }
     ],
-    "pageLength": 5
+    "pageLength": 3
     });
 }
 function marraztuTaula3 (datuak) {
@@ -42,7 +42,7 @@ function marraztuTaula3 (datuak) {
      { data: 'gidaria' },
      { data: 'denbora' }
  ],
- "pageLength": 5
+ "pageLength": 3
 });
 }
 function selektaEraiki(){

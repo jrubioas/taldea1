@@ -16,7 +16,7 @@ async function zirkuitoaksartu(taldea) {
 
 var zerbitzariaAPI ="zubiriapi.duckdns.org:8000";
 async function sailkapenasartu(taldea) {
-    var a = document.getElementById("id_gp2").value;
+    var a = document.getElementById("id_zirkuitoa2").value;
     var b = document.getElementById("posizioa").value;
     var c = document.getElementById("gidaria").value;
     var d = document.getElementById("denbora").value;
