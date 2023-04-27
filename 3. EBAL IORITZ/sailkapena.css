@@ -1,9 +1,8 @@
-table, tr, td{
-    border: 1px solid black;
+table, th, td {
+    border: 1px solid white;
     border-collapse: collapse;
     padding: 2px;
-}
-
+  }
 #irabazlea{
     background-color: rgb(235, 235, 12);
 }
@@ -21,4 +20,7 @@ table, tr, td{
 }
 #izenburua{
     font-weight: bold;
+}
+#id1{
+    background-color: rgb(255, 209, 242);
 }
