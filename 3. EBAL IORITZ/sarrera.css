@@ -15,5 +15,19 @@
 
 .berriak{
     width: 570px;
-    margin: 20px;
+}
+
+#foto{
+    height: 400px;
+    width: 666px;
+    padding-left: 10px;
+}
+
+#texto{
+    font-size: larger;
+}
+
+#id2{
+    width: 666px;
+    padding-left: 10px;
 }
